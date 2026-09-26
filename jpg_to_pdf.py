@@ -28,6 +28,6 @@ def images_to_pdf(input_folder, output_pdf):
         os.remove(pdf)
 
 if __name__ == "__main__":
-    input_folder = "C:\zhaonan\找工作准备\华为OD\OD隐私保护声明"  # Replace with your image folder path
-    output_pdf = "output.pdf"
+    input_folder = r"E:\项目\五里春秋装修\5.其他文件\全电诚诉讼\赵楠代为支付书面情况说明"  # Replace with your image folder path
+    output_pdf = r"E:\项目\五里春秋装修\5.其他文件\全电诚诉讼\赵楠代为支付书面情况说明\2.pdf"
     images_to_pdf(input_folder, output_pdf)

@@ -38,6 +38,6 @@ def merge_images_to_pdf(input_folder, output_pdf):
 
 
 # 示例用法
-input_folder = r"C:\Users\Alan\Downloads\新建文件夹"  # 替换为实际的图像文件夹路径
-output_pdf = r"C:\Users\Alan\Downloads\新建文件夹\发票.pdf"  # 输出 PDF 文件路径
+input_folder = r"F:\项目\诚善堂\2025企业年报\诚善堂金顶街企业年报\诚善堂金顶街企业年报.png"  # 替换为实际的图像文件夹路径
+output_pdf = r"F:\项目\诚善堂\2025企业年报\诚善堂金顶街企业年报\诚善堂金顶街企业年报.pdf"  # 输出 PDF 文件路径
 merge_images_to_pdf(input_folder, output_pdf)
